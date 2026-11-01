@@ -1,0 +1,26 @@
+{
+  "last_assessment_utc": "2026-11-01T03:59:08.381Z",
+  "epss_model_version": "v2024.03.01",
+  "high_risk_threshold": 0.75,
+  "critical_cves_flagged": [
+    {
+      "cve": "CVE-2024-3400",
+      "epss_score": 0.968,
+      "percentile": 0.999,
+      "remediation_priority": "P0-IMMEDIATE"
+    },
+    {
+      "cve": "CVE-2024-21887",
+      "epss_score": 0.941,
+      "percentile": 0.995,
+      "remediation_priority": "P0-IMMEDIATE"
+    },
+    {
+      "cve": "CVE-2023-46805",
+      "epss_score": 0.912,
+      "percentile": 0.991,
+      "remediation_priority": "P1-URGENT"
+    }
+  ],
+  "status": "ACTIVE_MONITORING"
+}
