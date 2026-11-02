@@ -62,6 +62,17 @@ class TestEPSSRadar(unittest.TestCase):
         out = format_radar_table(profiles)
         self.assertIn("CVE-2024-3400", out)
         self.assertIn("P0-IMMEDIATE", out)
+        self.assertTrue(out.encode("ascii", errors="strict"))
+
+    def test_radar_file_loading_if_exists(self):
+        radar_file = os.path.join(os.path.dirname(__file__), "..", "radar", "epss_high_risk.json")
+        if os.path.exists(radar_file):
+            with open(radar_file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            cves = data.get("critical_cves_flagged", [])
+            profiles = self.radar.evaluate_cves(cves, try_live_api=False)
+            self.assertEqual(len(profiles), len(cves))
+            self.assertEqual(profiles[0].remediation_priority, "P0-IMMEDIATE")
 
 
 if __name__ == "__main__":
