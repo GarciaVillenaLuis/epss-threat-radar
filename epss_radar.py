@@ -188,6 +188,12 @@ def get_default_sample_cves() -> List[Dict[str, Any]]:
 
 
 def main() -> None:
+    try:
+        if hasattr(sys.stdout, "reconfigure"):
+            sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
+
     parser = argparse.ArgumentParser(
         description="FIRST EPSS Threat Radar & Vulnerability Prioritization CLI",
         formatter_class=argparse.RawDescriptionHelpFormatter,
