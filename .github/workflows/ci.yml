@@ -1,0 +1,15 @@
+name: CI & EPSS Threat Radar
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run Unit Tests
+        run: python -m unittest discover -s tests -p "test_*.py"
+      - name: Execute Threat Prioritization
+        run: python epss_radar.py --format table
