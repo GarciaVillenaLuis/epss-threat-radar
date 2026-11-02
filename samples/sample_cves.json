@@ -1,0 +1,47 @@
+{
+  "assessment_target": "Enterprise Perimeter & Cloud Edge Gateways",
+  "critical_cves_flagged": [
+    {
+      "cve": "CVE-2024-3400",
+      "epss_score": 0.967,
+      "percentile": 0.999,
+      "cvss": 10.0,
+      "cisa_kev": true
+    },
+    {
+      "cve": "CVE-2024-21887",
+      "epss_score": 0.938,
+      "percentile": 0.995,
+      "cvss": 9.1,
+      "cisa_kev": true
+    },
+    {
+      "cve": "CVE-2023-46805",
+      "epss_score": 0.910,
+      "percentile": 0.991,
+      "cvss": 8.2,
+      "cisa_kev": true
+    },
+    {
+      "cve": "CVE-2023-38606",
+      "epss_score": 0.412,
+      "percentile": 0.920,
+      "cvss": 7.8,
+      "cisa_kev": false
+    },
+    {
+      "cve": "CVE-2024-1086",
+      "epss_score": 0.185,
+      "percentile": 0.840,
+      "cvss": 7.8,
+      "cisa_kev": false
+    },
+    {
+      "cve": "CVE-2023-2825",
+      "epss_score": 0.021,
+      "percentile": 0.450,
+      "cvss": 5.5,
+      "cisa_kev": false
+    }
+  ]
+}
