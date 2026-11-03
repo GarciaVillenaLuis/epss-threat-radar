@@ -1,6 +1,7 @@
 # EPSS Threat Radar 🎯
 
 [![CI/CD Pipeline](https://github.com/GarciaVillenaLuis/epss-threat-radar/actions/workflows/ci.yml/badge.svg)](https://github.com/GarciaVillenaLuis/epss-threat-radar/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/GarciaVillenaLuis/epss-threat-radar/actions/workflows/codeql.yml/badge.svg)](https://github.com/GarciaVillenaLuis/epss-threat-radar/actions/workflows/codeql.yml)
 [![EPSS Engine](https://img.shields.io/badge/EPSS%20Model-v2024.03.01-informational?style=flat-square&logo=target&logoColor=white)](https://www.first.org/epss/)
 [![Monitoring Status](https://img.shields.io/badge/Status-Active%20Monitoring-success?style=flat-square&logo=opsgenie&logoColor=white)](https://github.com/GarciaVillenaLuis/epss-threat-radar)
 [![Python Version](https://img.shields.io/badge/Python-3.9%2B-blue?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
