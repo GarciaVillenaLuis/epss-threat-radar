@@ -113,3 +113,8 @@ python -m unittest tests/test_epss_radar.py
 
 Real-time scoring index updated daily in:
 - [`radar/epss_high_risk.json`](./radar/epss_high_risk.json)
+
+
+## 🔒 Security Governance & CodeQL SAST Baseline
+
+This repository enforces continuous semantic code analysis via official **GitHub CodeQL** and automated zero-vulnerability security baselines for all multi-cloud governance modules.
