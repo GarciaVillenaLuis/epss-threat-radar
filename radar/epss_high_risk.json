@@ -1,5 +1,5 @@
 {
-  "last_assessment_utc": "2026-11-02T07:30:15.142Z",
+  "last_assessment_utc": "2026-11-11T08:30:15Z",
   "epss_model_version": "v2024.03.01",
   "high_risk_threshold": 0.75,
   "critical_cves_flagged": [
@@ -22,5 +22,8 @@
       "remediation_priority": "P1-URGENT"
     }
   ],
-  "status": "ACTIVE_MONITORING"
+  "status": "ACTIVE_MONITORING",
+  "last_audit_utc": "2026-11-11T08:30:15Z",
+  "last_sync_utc": "2026-11-11T08:30:15Z",
+  "verified_date": "2026-11-11"
 }
