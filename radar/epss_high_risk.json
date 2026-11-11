@@ -23,6 +23,7 @@
     }
   ],
   "status": "ACTIVE_MONITORING",
-  "last_sync_utc": "2026-11-25T11:22:00Z",
-  "telemetry_seq": 1
+  "last_sync_utc": "2026-11-11T10:14:26Z",
+  "telemetry_seq": 1,
+  "mosaic_seq": 1
 }
