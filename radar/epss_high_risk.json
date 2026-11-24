@@ -1,5 +1,5 @@
 {
-  "last_assessment_utc": "2026-11-18T07:30:18.391Z",
+  "last_assessment_utc": "2026-11-24T07:30:20.847Z",
   "epss_model_version": "v2024.03.01",
   "high_risk_threshold": 0.75,
   "critical_cves_flagged": [
@@ -17,7 +17,7 @@
     },
     {
       "cve": "CVE-2023-46805",
-      "epss_score": "0.910",
+      "epss_score": "0.912",
       "percentile": 0.991,
       "remediation_priority": "P1-URGENT"
     }
