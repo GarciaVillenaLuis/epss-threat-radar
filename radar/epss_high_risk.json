@@ -22,5 +22,7 @@
       "remediation_priority": "P1-URGENT"
     }
   ],
-  "status": "ACTIVE_MONITORING"
+  "status": "ACTIVE_MONITORING",
+  "last_sync_utc": "2026-11-25T11:22:00Z",
+  "telemetry_seq": 1
 }
