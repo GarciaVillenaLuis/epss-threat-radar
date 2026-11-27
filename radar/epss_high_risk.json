@@ -1,5 +1,5 @@
 {
-  "last_assessment_utc": "2026-11-24T07:30:20.847Z",
+  "last_assessment_utc": "2026-11-27T07:30:20.639Z",
   "epss_model_version": "v2024.03.01",
   "high_risk_threshold": 0.75,
   "critical_cves_flagged": [
@@ -22,8 +22,5 @@
       "remediation_priority": "P1-URGENT"
     }
   ],
-  "status": "ACTIVE_MONITORING",
-  "last_sync_utc": "2026-11-24T17:03:57Z",
-  "telemetry_seq": 1,
-  "mosaic_seq": 14
+  "status": "ACTIVE_MONITORING"
 }
